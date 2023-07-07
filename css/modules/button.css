@@ -1,0 +1,52 @@
+.header--logo button img {
+  width: 50px;
+  height: 50px;
+}
+
+.header--logo button {
+  background: none;
+  border: none;
+}
+
+.header--button2 {
+  background: none;
+  border: 1px solid #F53855;
+  width: 150px;
+  height: 45px;
+  border-radius: 50px;
+  color: #F53855;
+}
+
+.switch img {
+  width: 50px;
+  height: 50px;
+
+}
+
+.switch {
+  background: none;
+  border: none;
+}
+
+.content--start button {
+  width: 150px;
+  height: 45px;
+  background-color: #F53838;
+  border: none;
+  color: white;
+  border-radius: 10px
+}
+
+.plans>div button {
+  background: none;
+  border: 1px solid #F53855;
+  width: 150px;
+  height: 45px;
+  border-radius: 50px;
+  color: #F53855;
+}
+
+.plans>div button:hover {
+  background-color: #F53838;
+  color: white;
+}

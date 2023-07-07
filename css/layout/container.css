@@ -1,0 +1,195 @@
+.header--menu {
+  width: 90%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header--logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header--links {
+  display: none;
+}
+
+.header--sign {
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.header--content {
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content--start {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content--start h1 {
+  font-size:medium;
+}
+
+.content--start p {
+  font-size: small;
+}
+
+.content--img {
+  width: 90%;
+  padding: 20px;
+}
+
+.content--img img {
+  width: 100%;
+}
+
+.statistics {
+  width: 90%;
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  row-gap: 60px;
+}
+
+.users,.location,.servers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.statistics > div > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.plans {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  background: linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0.00) 100%);
+}
+
+.plans2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.plans>div:nth-child(2)>div {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid #DDD;
+  background: #FFF;
+  padding: 20px;
+  row-gap:50px ;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+.plans>div>div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.plans>div>div p {
+  color: #4F5665;
+}
+
+.plans--text {
+  border: none;
+  text-align: center;
+  max-width: 555px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.network {
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.network--text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.network > img {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.network-companys img {
+  margin: 10px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  margin: 50px 0;
+}
+
+footer {
+  width: 100%;
+  background-color: #F8F8F8;
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-left img {
+  width: 150px;
+  height: 37px;
+}
+
+
+.product {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin: 20px;
+}
+
+
+

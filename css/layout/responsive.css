@@ -1,0 +1,70 @@
+@media (min-width:930px ) {
+  .header--menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header--links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .header--logo button {
+    display: none;
+  }
+
+  .header--sign {
+    margin: 0;
+  }
+
+  .header--content {
+    margin-top: 70px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .content--start h1 {
+    font-size: 50px;
+  }
+
+  .content--start p {
+    font-size: 16px;
+  }
+
+  .content--start button {
+    width: 250px;
+    height: 60px;
+  }
+
+  .content--start {
+    gap: 20px;
+  }
+
+  .statistics {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+
+  .plans2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:50px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-right {
+    display: flex;
+    gap: 25px;
+  }
+}

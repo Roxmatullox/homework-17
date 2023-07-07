@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+*,*::after,*::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header--links a {
+  color: #4F5665;
+}
+
+.header--sign a {
+  color: #0B132A;
+}
